@@ -1,0 +1,21 @@
+S&P 500 LSTM Closing Price Predictor - Evaluation Summary
+=======================================================
+
+RMSE: 221.32
+MAE: 196.09
+MAPE: 2.72%
+
+Naive Baseline (predict yesterday's price):
+RMSE: 58.50
+MAE: 44.69
+MAPE: 0.64%
+
+Direction Prediction Report:
+              precision    recall  f1-score   support
+
+        Down       0.43      0.42      0.43       104
+          Up       0.52      0.53      0.53       124
+
+    accuracy                           0.48       228
+   macro avg       0.48      0.48      0.48       228
+weighted avg       0.48      0.48      0.48       228
